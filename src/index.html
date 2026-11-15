@@ -17,16 +17,27 @@
     />
   </head>
   <body>
-    <input
-      type="text"
-      data-qa="keypress"
-      placeholder="Try “Los Angeles“"
-    />
+    <form data-qa="big">
+      <div class="bigSearch">
+        <!-- prettier-ignore -->
+        <input
+          class="bigSearchInput"
+          type="search"
+          placeholder="Try &quot;Los Angeles&quot;"
+          data-qa="keypress"
+        />
+      </div>
+    </form>
 
-    <input
-      type="text"
-      data-qa="hover"
-      placeholder="Try “Los Angeles“"
-    />
+    <form data-qa="small">
+      <div class="smallSearch">
+        <!-- prettier-ignore -->
+        <input
+          class="smallSearchInput"
+          type="search"
+          placeholder="Try &quot;Los Angeles&quot;"
+        />
+      </div>
+    </form>
   </body>
 </html>
